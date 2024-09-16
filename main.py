@@ -61,7 +61,7 @@ rmse = np.sqrt(mean_squared_error(test_y, test_y_))
 print("Erreur absolue: %.2f" % mae)
 print("R²: %.2f" % r_squared)
 print("RMSE: %.2f" % rmse)
-#la valeur de R² est de 0.99 et l'ecart entre la prediction et la valeur reel est tres faible RMSE: 1.99 / Erreur absolue: 1.58 ce model est meilleur que le premier ainsi que le deuxieme et est beaucoup plus fiable
+#la valeur de R² est de 0.99 et l'ecart entre la prediction et la valeur reel est tres faible RMSE: 1.99 / Erreur absolue: 1.58 ce modèle est meilleur que le premier ainsi que le deuxieme et est beaucoup plus fiable
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #Le troisième modèle qui utilise toutes les variables disponibles est de loin le plus fiable et précis pour prédire l’indice de performance des étudiants. Les autres avec moins de variables ne parviennent pas à capturer suffisamment d’informations pour faire des prédictions précises. Cela montre l’importance d’inclure un ensemble complet de variables pertinentes pour obtenir des résultats de prédiction plus précis mais ca ne veut pas toujours dire que plus il y'en a mieux c'est; qualité >>> quantité.
